@@ -1,0 +1,157 @@
+[
+    {
+        "templateUUId": "2f99fcc7-90f7-42c6-b730-94b2c8715149",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Collection Solution (Conga Solution Template) Template",
+                "templateMainObject": "APXTConga4__Conga_Collection_Solution__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conga Collection Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "APXTConga4__Description__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Sort Order",
+                        "apiName": "APXTConga4__Sort_Order__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Conga Collection",
+                        "apiName": "APXTConga4__Conga_Collection__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "91ced767-c088-4c0e-97a0-83a5959a8ae6",
+                    "relationName": "APXTConga4__Conga_Collection__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "91ced767-c088-4c0e-97a0-83a5959a8ae6",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Collection (Conga Collection Solution Template) Template",
+                "templateMainObject": "APXTConga4__Conga_Collection__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conga Collection Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "APXTConga4__Description__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Is_SF1_Enabled",
+                        "apiName": "APXTConga4__Is_SF1_Enabled__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "SF1_Binding_sObject_Type",
+                        "apiName": "APXTConga4__SF1_Binding_sObject_Type__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]
