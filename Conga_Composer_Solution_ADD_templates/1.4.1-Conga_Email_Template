@@ -1,0 +1,104 @@
+[
+    {
+        "templateUUId": "9c98dd88-a5c5-4cff-bf12-52bdff7b7b93",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Email Template (Conga Solution Email Template) Template",
+                "templateMainObject": "APXTConga4__Conga_Email_Template__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Email Template Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "APXTConga4__Description__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "HTML Body",
+                        "apiName": "APXTConga4__HTMLBody__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Use attachment for template body",
+                        "apiName": "APXTConga4__Is_Body_Attachment__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Name",
+                        "apiName": "APXTConga4__Name__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Subject",
+                        "apiName": "APXTConga4__Subject__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Template Group",
+                        "apiName": "APXTConga4__Template_Group__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Text Body",
+                        "apiName": "APXTConga4__TextBody__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]
