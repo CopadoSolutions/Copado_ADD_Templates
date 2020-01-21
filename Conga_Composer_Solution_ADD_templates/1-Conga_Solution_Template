@@ -1,0 +1,1262 @@
+[
+    {
+        "templateUUId": "a67caa3c-c360-46d4-8015-8410d704d8ae",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Solution Template",
+                "templateMainObject": "APXTConga4__Conga_Solution__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conga Email Template Count",
+                        "apiName": "APXTConga4__CongaEmailTemplateCount__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Weblink Id",
+                        "apiName": "APXTConga4__Weblink_Id__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Solution Weblink Syntax",
+                        "apiName": "APXTConga4__Solution_Weblink_Syntax__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Solution Description",
+                        "apiName": "APXTConga4__Solution_Description__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Sample Record Name",
+                        "apiName": "APXTConga4__Sample_Record_Name__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Sample Record Id",
+                        "apiName": "APXTConga4__Sample_Record_Id__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Master Object Type",
+                        "apiName": "APXTConga4__Master_Object_Type__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Master Object Type Validator",
+                        "apiName": "APXTConga4__Master_Object_Type_Validator__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Launch",
+                        "apiName": "APXTConga4__Launch_C8_Formula_Button__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Is Quick Start",
+                        "apiName": "APXTConga4__Is_Quick_Start__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Formula Field Body",
+                        "apiName": "APXTConga4__Formula_body_field__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Formula Field API Name",
+                        "apiName": "APXTConga4__Formula_Field_API_Name__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Custom Object Id",
+                        "apiName": "APXTConga4__Custom_Object_Id__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Composer Parameters",
+                        "apiName": "APXTConga4__Composer_Parameters__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Button Body (URL)",
+                        "apiName": "APXTConga4__Button_body_field__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Button/Link API Name",
+                        "apiName": "APXTConga4__Button_Link_API_Name__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conga Solution Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": [
+                    {
+                        "field": "APXTConga4__Conga_Solution__c",
+                        "relationshipName": "APXTConga4__Conga_Solution_Templates__r",
+                        "childSObject": "APXTConga4__Conga_Solution_Template__c",
+                        "childSObjectLabel": "Conga Solution Template"
+                    },
+                    {
+                        "field": "APXTConga4__Conga_Solution__c",
+                        "relationshipName": "APXTConga4__Conga_Solution_Reports__r",
+                        "childSObject": "APXTConga4__Conga_Solution_Report__c",
+                        "childSObjectLabel": "Conga Solution Report"
+                    },
+                    {
+                        "field": "APXTConga4__Conga_Solution__c",
+                        "relationshipName": "APXTConga4__Conga_Solution_Queries__r",
+                        "childSObject": "APXTConga4__Conga_Solution_Query__c",
+                        "childSObjectLabel": "Conga Solution Query"
+                    },
+                    {
+                        "field": "APXTConga4__Conga_Solution__c",
+                        "relationshipName": "APXTConga4__Conga_Solution_Parameters__r",
+                        "childSObject": "APXTConga4__Conga_Solution_Parameter__c",
+                        "childSObjectLabel": "Conga Solution Parameter"
+                    },
+                    {
+                        "field": "APXTConga4__Conga_Solution__c",
+                        "relationshipName": "APXTConga4__Conga_Solution_Email_Templates__r",
+                        "childSObject": "APXTConga4__Conga_Solution_Email_Template__c",
+                        "childSObjectLabel": "Conga Solution Email Template"
+                    },
+                    {
+                        "field": "APXTConga4__Conga_Solution__c",
+                        "relationshipName": "APXTConga4__Conga_Collection_Solutions__r",
+                        "childSObject": "APXTConga4__Conga_Collection_Solution__c",
+                        "childSObjectLabel": "Conga Collection Solution"
+                    }
+                ]
+            },
+            "relationList": [
+                {
+                    "templateUUId": "c011d15d-3517-4ed3-9958-133069b378c1",
+                    "relationName": "APXTConga4__Conga_Collection_Solutions__r",
+                    "childSObject": "APXTConga4__Conga_Collection_Solution__c"
+                },
+                {
+                    "templateUUId": "1a29f1fa-2093-4e64-9810-672374eef686",
+                    "relationName": "APXTConga4__Conga_Solution_Email_Templates__r",
+                    "childSObject": "APXTConga4__Conga_Solution_Email_Template__c"
+                },
+                {
+                    "templateUUId": "3b5a09b4-8a44-4adb-9553-b699b7eb0ed0",
+                    "relationName": "APXTConga4__Conga_Solution_Parameters__r",
+                    "childSObject": "APXTConga4__Conga_Solution_Parameter__c"
+                },
+                {
+                    "templateUUId": "e6a70ccc-a6a7-4377-bda1-b38fa02b798a",
+                    "relationName": "APXTConga4__Conga_Solution_Queries__r",
+                    "childSObject": "APXTConga4__Conga_Solution_Query__c"
+                },
+                {
+                    "templateUUId": "c212f719-e31f-458c-b748-a687abba29e5",
+                    "relationName": "APXTConga4__Conga_Solution_Reports__r",
+                    "childSObject": "APXTConga4__Conga_Solution_Report__c"
+                },
+                {
+                    "templateUUId": "db8085de-a725-42a9-9f03-a6ee0e740c90",
+                    "relationName": "APXTConga4__Conga_Solution_Templates__r",
+                    "childSObject": "APXTConga4__Conga_Solution_Template__c"
+                }
+            ],
+            "filterList": [
+                {
+                    "order": 1,
+                    "operator": "e",
+                    "fieldName": "--None--",
+                    "fieldType": "STRING",
+                    "finalValue": ""
+                }
+            ]
+        }
+    },
+    {
+        "templateUUId": "c011d15d-3517-4ed3-9958-133069b378c1",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Collection Solution (Conga Solution Template) Template",
+                "templateMainObject": "APXTConga4__Conga_Collection_Solution__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conga Collection Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "APXTConga4__Description__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Sort Order",
+                        "apiName": "APXTConga4__Sort_Order__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Conga Collection",
+                        "apiName": "APXTConga4__Conga_Collection__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "3a98de4d-8d49-4899-b40b-bc37f5ea251f",
+                    "relationName": "APXTConga4__Conga_Collection__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "1a29f1fa-2093-4e64-9810-672374eef686",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Solution Email Template (Conga solution Template) Template",
+                "templateMainObject": "APXTConga4__Conga_Solution_Email_Template__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conga Solution Email Template Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "APXTConga4__Comments__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Conga Email Template Group",
+                        "apiName": "APXTConga4__Conga_Email_Template_Group__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Conga Email Template Name",
+                        "apiName": "APXTConga4__Conga_Email_Template_Name__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "IsDefault",
+                        "apiName": "APXTConga4__IsDefault__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Conga Email Template",
+                        "apiName": "APXTConga4__Conga_Email_Template__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "32819a2b-e234-43e7-b3f5-23b975c89ee7",
+                    "relationName": "APXTConga4__Conga_Email_Template__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "3b5a09b4-8a44-4adb-9553-b699b7eb0ed0",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Solution Parameter (Conga Solution Template) Template",
+                "templateMainObject": "APXTConga4__Conga_Solution_Parameter__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conga Solution Parameter Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "APXTConga4__Comments__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Name",
+                        "apiName": "APXTConga4__Name__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Value",
+                        "apiName": "APXTConga4__Value__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "e6a70ccc-a6a7-4377-bda1-b38fa02b798a",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Solution Query (Conga Solution Template) Template",
+                "templateMainObject": "APXTConga4__Conga_Solution_Query__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conga Solution Query Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Alias",
+                        "apiName": "APXTConga4__Alias__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "APXTConga4__Comments__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Conga Query Name",
+                        "apiName": "APXTConga4__Conga_Query_Name__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "pv0",
+                        "apiName": "APXTConga4__pv0__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "pv1",
+                        "apiName": "APXTConga4__pv1__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "pv2",
+                        "apiName": "APXTConga4__pv2__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Conga Query",
+                        "apiName": "APXTConga4__Conga_Query__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "6d3b49e6-caee-484e-8123-cda32a3d7994",
+                    "relationName": "APXTConga4__Conga_Query__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "c212f719-e31f-458c-b748-a687abba29e5",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Solution Report (Conga Solutions) Template",
+                "templateMainObject": "APXTConga4__Conga_Solution_Report__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "pv2",
+                        "apiName": "APXTConga4__pv2__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "pv1",
+                        "apiName": "APXTConga4__pv1__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "pv0",
+                        "apiName": "APXTConga4__pv0__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Report Name",
+                        "apiName": "APXTConga4__Report_Name__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Report Id",
+                        "apiName": "APXTConga4__Report_Id__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Report Id",
+                        "apiName": "APXTConga4__Report_Id_Link__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "APXTConga4__Comments__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Alias",
+                        "apiName": "APXTConga4__Alias__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conga Solution Report Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "db8085de-a725-42a9-9f03-a6ee0e740c90",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Solution Template (Conga Solution) Template",
+                "templateMainObject": "APXTConga4__Conga_Solution_Template__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conga Solution Template Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "APXTConga4__Comments__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Output File Name (OFN)",
+                        "apiName": "APXTConga4__Output_File_Name__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Sort Order",
+                        "apiName": "APXTConga4__Sort_Order__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Template Extension",
+                        "apiName": "APXTConga4__Template_Extension__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Template Group",
+                        "apiName": "APXTConga4__Template_Group__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Template Name",
+                        "apiName": "APXTConga4__Template_Name__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Conga Template",
+                        "apiName": "APXTConga4__Conga_Template__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "ab8917e6-0b32-4b5e-a247-a547f6eae98e",
+                    "relationName": "APXTConga4__Conga_Template__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "ab8917e6-0b32-4b5e-a247-a547f6eae98e",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Template (Conga Solution Template) Template",
+                "templateMainObject": "APXTConga4__Conga_Template__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": true,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Template Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "APXTConga4__Description__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Label Template: Use Detail Data",
+                        "apiName": "APXTConga4__Label_Template_Use_Detail_Data__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Master Field to Set 1",
+                        "apiName": "APXTConga4__Master_Field_to_Set_1__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Master Field to Set 2",
+                        "apiName": "APXTConga4__Master_Field_to_Set_2__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Master Field to Set 3",
+                        "apiName": "APXTConga4__Master_Field_to_Set_3__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Name",
+                        "apiName": "APXTConga4__Name__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Template Extension",
+                        "apiName": "APXTConga4__Template_Extension__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Template Group",
+                        "apiName": "APXTConga4__Template_Group__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Template Type",
+                        "apiName": "APXTConga4__Template_Type__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "32819a2b-e234-43e7-b3f5-23b975c89ee7",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Email Template (Conga Solution Email Template) Template",
+                "templateMainObject": "APXTConga4__Conga_Email_Template__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Email Template Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "APXTConga4__Description__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "HTML Body",
+                        "apiName": "APXTConga4__HTMLBody__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Use attachment for template body",
+                        "apiName": "APXTConga4__Is_Body_Attachment__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Name",
+                        "apiName": "APXTConga4__Name__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Subject",
+                        "apiName": "APXTConga4__Subject__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Template Group",
+                        "apiName": "APXTConga4__Template_Group__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Text Body",
+                        "apiName": "APXTConga4__TextBody__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "6d3b49e6-caee-484e-8123-cda32a3d7994",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Query (Conga Solution Query Template) Template",
+                "templateMainObject": "APXTConga4__Conga_Merge_Query__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conga Query Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "APXTConga4__Description__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Name",
+                        "apiName": "APXTConga4__Name__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "SOQL Select Statement",
+                        "apiName": "APXTConga4__Query__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "3a98de4d-8d49-4899-b40b-bc37f5ea251f",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Conga Collection (Conga Collection Solution Template) Template",
+                "templateMainObject": "APXTConga4__Conga_Collection__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conga Collection Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "APXTConga4__Description__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Is_SF1_Enabled",
+                        "apiName": "APXTConga4__Is_SF1_Enabled__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "SF1_Binding_sObject_Type",
+                        "apiName": "APXTConga4__SF1_Binding_sObject_Type__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]
