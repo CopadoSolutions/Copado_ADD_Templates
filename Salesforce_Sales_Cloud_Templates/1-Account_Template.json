@@ -3,7 +3,7 @@
         "templateUUId": "fbbee3bc-3018-4378-9511-0d1777506f03",
         "values": {
             "dataTemplate": {
-                "templateName": "1-Account Template",
+                "templateName": "Account Template",
                 "templateMainObject": "Account",
                 "templateQueryLimit": null,
                 "templateDescription": null,
@@ -411,13 +411,6 @@
                     {
                         "name": "Customer Portal Account",
                         "apiName": "IsCustomerPortal",
-                        "contentValueUpdateValues": {
-                            "Replace Value": "replace"
-                        }
-                    },
-                    {
-                        "name": "Exclude from territory assignment rules",
-                        "apiName": "IsExcludedFromRealign",
                         "contentValueUpdateValues": {
                             "Replace Value": "replace"
                         }
