@@ -1,0 +1,267 @@
+[
+    {
+        "templateUUId": "0456f835-8633-4174-a06a-89286f886dd3",
+        "values": {
+            "dataTemplate": {
+                "templateName": "2-Opportunity",
+                "templateMainObject": "Opportunity",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [],
+                "parentObjects": [],
+                "childObjects": [
+                    {
+                        "field": "OpportunityId",
+                        "relationshipName": "OpportunityLineItems",
+                        "childSObject": "OpportunityLineItem",
+                        "childSObjectLabel": "Opportunity Product"
+                    }
+                ]
+            },
+            "relationList": [
+                {
+                    "templateUUId": "99dd674c-e7e5-4f05-8fe7-39ab443524f1",
+                    "relationName": "AccountId"
+                },
+                {
+                    "templateUUId": "3ed1097a-b444-4fc2-9b6b-01f5f514a7c6",
+                    "relationName": "Pricebook2Id"
+                },
+                {
+                    "templateUUId": "e34fe607-229e-43e3-9532-6c682a985d81",
+                    "relationName": "OpportunityLineItems",
+                    "childSObject": "OpportunityLineItem"
+                }
+            ],
+            "filterList": [
+                {
+                    "order": 1,
+                    "operator": "e",
+                    "fieldName": "--None--",
+                    "fieldType": "STRING",
+                    "finalValue": ""
+                }
+            ]
+        }
+    },
+    {
+        "templateUUId": "99dd674c-e7e5-4f05-8fe7-39ab443524f1",
+        "values": {
+            "dataTemplate": {
+                "templateName": "1-Account Template",
+                "templateMainObject": "Account",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": true,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "dd98a9ae-7106-46a9-90a4-df16254120ec",
+                    "relationName": "ParentId"
+                }
+            ],
+            "filterList": [
+                {
+                    "order": 1,
+                    "operator": "e",
+                    "fieldName": "--None--",
+                    "fieldType": "STRING",
+                    "finalValue": ""
+                }
+            ]
+        }
+    },
+    {
+        "templateUUId": "e34fe607-229e-43e3-9532-6c682a985d81",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Opportunity Product (Opportunity) Template",
+                "templateMainObject": "OpportunityLineItem",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "2964d60a-73a2-49a3-a5a0-a1d14e2908a5",
+                    "relationName": "Product2Id"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "3ed1097a-b444-4fc2-9b6b-01f5f514a7c6",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Price Book (Opportunity Direct relationship) Template",
+                "templateMainObject": "Pricebook2",
+                "templateQueryLimit": null,
+                "templateDescription": "",
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "2964d60a-73a2-49a3-a5a0-a1d14e2908a5",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Product (Opportunity) Template",
+                "templateMainObject": "Product2",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [],
+                "parentObjects": [],
+                "childObjects": [
+                    {
+                        "field": "Product2Id",
+                        "relationshipName": "PricebookEntries",
+                        "childSObject": "PricebookEntry",
+                        "childSObjectLabel": "Price Book Entry"
+                    }
+                ]
+            },
+            "relationList": [
+                {
+                    "templateUUId": "602ed41f-6ed1-416f-b9cb-de533ba945e1",
+                    "relationName": "PricebookEntries",
+                    "childSObject": "PricebookEntry"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "dd98a9ae-7106-46a9-90a4-df16254120ec",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Parent Account Template",
+                "templateMainObject": "Account",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": true,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": [
+                {
+                    "order": 1,
+                    "operator": "e",
+                    "fieldName": "--None--",
+                    "fieldType": "STRING",
+                    "finalValue": ""
+                }
+            ]
+        }
+    },
+    {
+        "templateUUId": "602ed41f-6ed1-416f-b9cb-de533ba945e1",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Price Book Entry (Opportunity) Template",
+                "templateMainObject": "PricebookEntry",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "d5b33a06-226b-4dac-9b2c-d5ee0958c978",
+                    "relationName": "Pricebook2Id"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "d5b33a06-226b-4dac-9b2c-d5ee0958c978",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Price Book (Opportunity) Template",
+                "templateMainObject": "Pricebook2",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]
