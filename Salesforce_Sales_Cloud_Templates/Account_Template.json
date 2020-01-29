@@ -1,0 +1,1082 @@
+[
+    {
+        "templateUUId": "fbbee3bc-3018-4378-9511-0d1777506f03",
+        "values": {
+            "dataTemplate": {
+                "templateName": "1-Account Template",
+                "templateMainObject": "Account",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": true,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "SIC Description",
+                        "apiName": "SicDesc",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Account Source",
+                        "apiName": "AccountSource",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Jigsaw Company ID",
+                        "apiName": "JigsawCompanyId",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Data.com Key",
+                        "apiName": "Jigsaw",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Customer Portal Account",
+                        "apiName": "IsCustomerPortal",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Account Currency",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Account Site",
+                        "apiName": "Site",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Account Rating",
+                        "apiName": "Rating",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Account Description",
+                        "apiName": "Description",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Ticker Symbol",
+                        "apiName": "TickerSymbol",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Ownership",
+                        "apiName": "Ownership",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Employees",
+                        "apiName": "NumberOfEmployees",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Annual Revenue",
+                        "apiName": "AnnualRevenue",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Industry",
+                        "apiName": "Industry",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "SIC Code",
+                        "apiName": "Sic",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Photo URL",
+                        "apiName": "PhotoUrl",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Website",
+                        "apiName": "Website",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Account Number",
+                        "apiName": "AccountNumber",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Account Fax",
+                        "apiName": "Fax",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Account Phone",
+                        "apiName": "Phone",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Shipping Address",
+                        "apiName": "ShippingAddress",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Shipping Geocode Accuracy",
+                        "apiName": "ShippingGeocodeAccuracy",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Shipping Longitude",
+                        "apiName": "ShippingLongitude",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Shipping Latitude",
+                        "apiName": "ShippingLatitude",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Shipping Country",
+                        "apiName": "ShippingCountry",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Shipping Zip/Postal Code",
+                        "apiName": "ShippingPostalCode",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Shipping State/Province",
+                        "apiName": "ShippingState",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Shipping City",
+                        "apiName": "ShippingCity",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Shipping Street",
+                        "apiName": "ShippingStreet",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Billing Address",
+                        "apiName": "BillingAddress",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Billing Geocode Accuracy",
+                        "apiName": "BillingGeocodeAccuracy",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Billing Longitude",
+                        "apiName": "BillingLongitude",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Billing Latitude",
+                        "apiName": "BillingLatitude",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Billing Country",
+                        "apiName": "BillingCountry",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Billing Zip/Postal Code",
+                        "apiName": "BillingPostalCode",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Billing State/Province",
+                        "apiName": "BillingState",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Billing City",
+                        "apiName": "BillingCity",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Billing Street",
+                        "apiName": "BillingStreet",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Account Type",
+                        "apiName": "Type",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Account Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Account ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Parent Account ID",
+                        "apiName": "ParentId"
+                    }
+                ],
+                "childObjects": [
+                    {
+                        "field": "AccountId",
+                        "relationshipName": "Contacts",
+                        "childSObject": "Contact",
+                        "childSObjectLabel": "Contact"
+                    }
+                ]
+            },
+            "relationList": [
+                {
+                    "templateUUId": "efe3a405-1d9c-44d9-ad95-70476d5aa562",
+                    "relationName": "ParentId"
+                },
+                {
+                    "templateUUId": "c958d7ad-5b91-4de1-adac-3e6c65b470cb",
+                    "relationName": "Contacts",
+                    "childSObject": "Contact"
+                }
+            ],
+            "filterList": [
+                {
+                    "order": 1,
+                    "operator": "e",
+                    "fieldName": "--None--",
+                    "fieldType": "STRING",
+                    "finalValue": ""
+                }
+            ]
+        }
+    },
+    {
+        "templateUUId": "efe3a405-1d9c-44d9-ad95-70476d5aa562",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Parent Account Template",
+                "templateMainObject": "Account",
+                "templateQueryLimit": null,
+                "templateDescription": "",
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "SIC Description",
+                        "apiName": "SicDesc",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Account Source",
+                        "apiName": "AccountSource",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Jigsaw Company ID",
+                        "apiName": "JigsawCompanyId",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Data.com Key",
+                        "apiName": "Jigsaw",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Customer Portal Account",
+                        "apiName": "IsCustomerPortal",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Exclude from territory assignment rules",
+                        "apiName": "IsExcludedFromRealign",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Account Currency",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Account Site",
+                        "apiName": "Site",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Account Rating",
+                        "apiName": "Rating",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Account Description",
+                        "apiName": "Description",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Ticker Symbol",
+                        "apiName": "TickerSymbol",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Ownership",
+                        "apiName": "Ownership",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Employees",
+                        "apiName": "NumberOfEmployees",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Annual Revenue",
+                        "apiName": "AnnualRevenue",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Industry",
+                        "apiName": "Industry",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "SIC Code",
+                        "apiName": "Sic",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Photo URL",
+                        "apiName": "PhotoUrl",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Website",
+                        "apiName": "Website",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Account Number",
+                        "apiName": "AccountNumber",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Account Fax",
+                        "apiName": "Fax",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Account Phone",
+                        "apiName": "Phone",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Shipping Address",
+                        "apiName": "ShippingAddress",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Shipping Geocode Accuracy",
+                        "apiName": "ShippingGeocodeAccuracy",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Shipping Longitude",
+                        "apiName": "ShippingLongitude",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Shipping Latitude",
+                        "apiName": "ShippingLatitude",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Shipping Country",
+                        "apiName": "ShippingCountry",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Shipping Zip/Postal Code",
+                        "apiName": "ShippingPostalCode",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Shipping State/Province",
+                        "apiName": "ShippingState",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Shipping City",
+                        "apiName": "ShippingCity",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Shipping Street",
+                        "apiName": "ShippingStreet",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Billing Address",
+                        "apiName": "BillingAddress",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Billing Geocode Accuracy",
+                        "apiName": "BillingGeocodeAccuracy",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Billing Longitude",
+                        "apiName": "BillingLongitude",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Billing Latitude",
+                        "apiName": "BillingLatitude",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Billing Country",
+                        "apiName": "BillingCountry",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Billing Zip/Postal Code",
+                        "apiName": "BillingPostalCode",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Billing State/Province",
+                        "apiName": "BillingState",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Billing City",
+                        "apiName": "BillingCity",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Billing Street",
+                        "apiName": "BillingStreet",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Account Type",
+                        "apiName": "Type",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Account Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Account ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "c958d7ad-5b91-4de1-adac-3e6c65b470cb",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Contact Template",
+                "templateMainObject": "Contact",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Contact ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Last Name",
+                        "apiName": "LastName",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "First Name",
+                        "apiName": "FirstName",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Salutation",
+                        "apiName": "Salutation",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Full Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Other Street",
+                        "apiName": "OtherStreet",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Other City",
+                        "apiName": "OtherCity",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Other State/Province",
+                        "apiName": "OtherState",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Other Zip/Postal Code",
+                        "apiName": "OtherPostalCode",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Other Country",
+                        "apiName": "OtherCountry",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Other Latitude",
+                        "apiName": "OtherLatitude",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Other Longitude",
+                        "apiName": "OtherLongitude",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Other Geocode Accuracy",
+                        "apiName": "OtherGeocodeAccuracy",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Other Address",
+                        "apiName": "OtherAddress",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Mailing Street",
+                        "apiName": "MailingStreet",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Mailing City",
+                        "apiName": "MailingCity",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Mailing State/Province",
+                        "apiName": "MailingState",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Mailing Zip/Postal Code",
+                        "apiName": "MailingPostalCode",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Mailing Country",
+                        "apiName": "MailingCountry",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Mailing Latitude",
+                        "apiName": "MailingLatitude",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Mailing Longitude",
+                        "apiName": "MailingLongitude",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Mailing Geocode Accuracy",
+                        "apiName": "MailingGeocodeAccuracy",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Mailing Address",
+                        "apiName": "MailingAddress",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Business Phone",
+                        "apiName": "Phone",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Business Fax",
+                        "apiName": "Fax",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Mobile Phone",
+                        "apiName": "MobilePhone",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Home Phone",
+                        "apiName": "HomePhone",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Other Phone",
+                        "apiName": "OtherPhone",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Asst. Phone",
+                        "apiName": "AssistantPhone",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Email",
+                        "apiName": "Email",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Title",
+                        "apiName": "Title",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Department",
+                        "apiName": "Department",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Assistant's Name",
+                        "apiName": "AssistantName",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Lead Source",
+                        "apiName": "LeadSource",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Birthdate",
+                        "apiName": "Birthdate",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Contact Description",
+                        "apiName": "Description",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Contact Currency",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Email Opt Out",
+                        "apiName": "HasOptedOutOfEmail",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Fax Opt Out",
+                        "apiName": "HasOptedOutOfFax",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Do Not Call",
+                        "apiName": "DoNotCall",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Last Stay-in-Touch Request Date",
+                        "apiName": "LastCURequestDate",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Last Stay-in-Touch Save Date",
+                        "apiName": "LastCUUpdateDate",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Email Bounced Reason",
+                        "apiName": "EmailBouncedReason",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Email Bounced Date",
+                        "apiName": "EmailBouncedDate",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Is Email Bounced",
+                        "apiName": "IsEmailBounced",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Photo URL",
+                        "apiName": "PhotoUrl",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Data.com Key",
+                        "apiName": "Jigsaw",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Jigsaw Contact ID",
+                        "apiName": "JigsawContactId",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]
