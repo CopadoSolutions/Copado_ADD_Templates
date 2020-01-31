@@ -183,7 +183,7 @@
         "templateUUId": "dd98a9ae-7106-46a9-90a4-df16254120ec",
         "values": {
             "dataTemplate": {
-                "templateName": "Parent Account Template",
+                "templateName": "Parent Account Template_2",
                 "templateMainObject": "Account",
                 "templateQueryLimit": null,
                 "templateDescription": null,
