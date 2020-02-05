@@ -1,0 +1,110 @@
+[
+    {
+        "templateUUId": "b263a8c8-9ec3-438d-a469-44841f8c0c0a",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Source Variable  Template",
+                "templateMainObject": "SBQQ__SummaryVariable__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": true,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Variable Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Aggregate Field",
+                        "apiName": "SBQQ__AggregateField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Aggregate Function",
+                        "apiName": "SBQQ__AggregateFunction__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Composite Operator",
+                        "apiName": "SBQQ__CompositeOperator__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Constraint Field",
+                        "apiName": "SBQQ__ConstraintField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Filter Field",
+                        "apiName": "SBQQ__FilterField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Filter Value",
+                        "apiName": "SBQQ__FilterValue__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Operator",
+                        "apiName": "SBQQ__Operator__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Scope",
+                        "apiName": "SBQQ__Scope__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Target Object",
+                        "apiName": "SBQQ__TargetObject__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Value Element",
+                        "apiName": "SBQQ__ValueElement__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]
