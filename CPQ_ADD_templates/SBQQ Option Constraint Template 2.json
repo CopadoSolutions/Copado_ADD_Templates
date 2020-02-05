@@ -1,0 +1,80 @@
+[
+    {
+        "templateUUId": "1c1b7d04-0e87-4950-8395-4a47b42460c7",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Option Constraint Template 2",
+                "templateMainObject": "SBQQ__OptionConstraint__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Option Constraint Group",
+                        "apiName": "SBQQ__OptionConstraintGroup__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Check Prior Purchases",
+                        "apiName": "SBQQ__CheckPriorPurchases__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Active",
+                        "apiName": "SBQQ__Active__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Constraint Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]

@@ -1,0 +1,113 @@
+[
+    {
+        "templateUUId": "cef7eb0a-fe8a-44c9-8130-148bcd3c3d80",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Price Dimension Template",
+                "templateMainObject": "SBQQ__Dimension__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": true,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Dimension Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Cost Editable",
+                        "apiName": "SBQQ__CostEditable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Default Quantity",
+                        "apiName": "SBQQ__DefaultQuantity__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Non Discountable",
+                        "apiName": "SBQQ__NonDiscountable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Non Partner Discountable",
+                        "apiName": "SBQQ__NonPartnerDiscountable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Price Editable",
+                        "apiName": "SBQQ__PriceEditable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Quantity Editable",
+                        "apiName": "SBQQ__QuantityEditable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Quantity Scale",
+                        "apiName": "SBQQ__QuantityScale__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Taxable",
+                        "apiName": "SBQQ__Taxable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Unit Price",
+                        "apiName": "SBQQ__UnitPrice__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]

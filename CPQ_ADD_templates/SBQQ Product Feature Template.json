@@ -1,0 +1,106 @@
+[
+    {
+        "templateUUId": "3d08b25f-5110-4e47-be5b-94060dfe5e26",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Product Feature Template",
+                "templateMainObject": "SBQQ__ProductFeature__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Feature Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Category",
+                        "apiName": "SBQQ__Category__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Configuration Field Set",
+                        "apiName": "SBQQ__ConfigurationFieldSet__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Dynamic Option Filter Field Set",
+                        "apiName": "SBQQ__DynamicProductFilterFieldSet__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Dynamic Option Lookup Field Set",
+                        "apiName": "SBQQ__DynamicProductLookupFieldSet__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Max Options",
+                        "apiName": "SBQQ__MaxOptionCount__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Min Options",
+                        "apiName": "SBQQ__MinOptionCount__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Number",
+                        "apiName": "SBQQ__Number__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Option Selection Method",
+                        "apiName": "SBQQ__OptionSelectionMethod__c",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]

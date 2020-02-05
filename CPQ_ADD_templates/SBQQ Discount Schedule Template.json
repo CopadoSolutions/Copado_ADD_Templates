@@ -1,0 +1,571 @@
+[
+    {
+        "templateUUId": "1f8eef70-ab46-4965-8016-87ae889efe7b",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Discount Schedule Template",
+                "templateMainObject": "SBQQ__DiscountSchedule__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Schedule Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Aggregation Scope",
+                        "apiName": "SBQQ__AggregationScope__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Constraint Field",
+                        "apiName": "SBQQ__ConstraintField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Cross Orders",
+                        "apiName": "SBQQ__CrossOrders__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Cross Products",
+                        "apiName": "SBQQ__CrossProducts__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "SBQQ__Description__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Discount Unit",
+                        "apiName": "SBQQ__DiscountUnit__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Excluded Pricebook IDs",
+                        "apiName": "SBQQ__ExcludedPricebookIds__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Include Bundled Quantities",
+                        "apiName": "SBQQ__IncludeBundledProducts__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Override Behavior",
+                        "apiName": "SBQQ__OverrideBehavior__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Price Scale",
+                        "apiName": "SBQQ__PriceScale__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Quote Line Quantity Field",
+                        "apiName": "SBQQ__QuoteLineQuantityField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Use Price For Amount",
+                        "apiName": "SBQQ__UsePriceForAmount__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "User Defined",
+                        "apiName": "SBQQ__UserDefined__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Price Book",
+                        "apiName": "SBQQ__Pricebook__c"
+                    }
+                ],
+                "childObjects": [
+                    {
+                        "field": "SBQQ__DiscountSchedule__c",
+                        "relationshipName": "SBQQ__Dimensions__r",
+                        "childSObject": "SBQQ__Dimension__c",
+                        "childSObjectLabel": "Price Dimension"
+                    },
+                    {
+                        "field": "SBQQ__OriginalDiscountSchedule__c",
+                        "relationshipName": "SBQQ__PriceSchedules__r",
+                        "childSObject": "SBQQ__PriceSchedule__c",
+                        "childSObjectLabel": "Price Schedule"
+                    }
+                ]
+            },
+            "relationList": [
+                {
+                    "templateUUId": "9b351f04-9243-4b04-bba1-a1a831231566",
+                    "relationName": "SBQQ__Pricebook__c"
+                },
+                {
+                    "templateUUId": "698f542c-e7ba-44c9-90ae-cf5b732bc564",
+                    "relationName": "SBQQ__Dimensions__r",
+                    "childSObject": "SBQQ__Dimension__c"
+                },
+                {
+                    "templateUUId": "a8016228-5128-440b-99da-e32a814260ad",
+                    "relationName": "SBQQ__PriceSchedules__r",
+                    "childSObject": "SBQQ__PriceSchedule__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "698f542c-e7ba-44c9-90ae-cf5b732bc564",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Price Dimension Template",
+                "templateMainObject": "SBQQ__Dimension__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": true,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Dimension Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Cost Editable",
+                        "apiName": "SBQQ__CostEditable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Default Quantity",
+                        "apiName": "SBQQ__DefaultQuantity__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Non Discountable",
+                        "apiName": "SBQQ__NonDiscountable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Non Partner Discountable",
+                        "apiName": "SBQQ__NonPartnerDiscountable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Price Editable",
+                        "apiName": "SBQQ__PriceEditable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Quantity Editable",
+                        "apiName": "SBQQ__QuantityEditable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Quantity Scale",
+                        "apiName": "SBQQ__QuantityScale__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Taxable",
+                        "apiName": "SBQQ__Taxable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Unit Price",
+                        "apiName": "SBQQ__UnitPrice__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "9b351f04-9243-4b04-bba1-a1a831231566",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Price Book Template",
+                "templateMainObject": "Pricebook2",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Price Book ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Price Book Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Active",
+                        "apiName": "IsActive",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "Description",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Is Standard Price Book",
+                        "apiName": "IsStandard",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": [
+                    {
+                        "field": "SBQQ__PriceBook2__c",
+                        "relationshipName": "SBQQ__BlockPrices__r",
+                        "childSObject": "SBQQ__BlockPrice__c",
+                        "childSObjectLabel": "Block Price"
+                    }
+                ]
+            },
+            "relationList": [
+                {
+                    "templateUUId": "b810597d-29df-4500-bed5-433497277f8d",
+                    "relationName": "SBQQ__BlockPrices__r",
+                    "childSObject": "SBQQ__BlockPrice__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "a8016228-5128-440b-99da-e32a814260ad",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Price Schedule Template",
+                "templateMainObject": "SBQQ__PriceSchedule__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Schedule Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Aggregation Scope",
+                        "apiName": "SBQQ__AggregationScope__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Constraint Field",
+                        "apiName": "SBQQ__ConstraintField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Cross Orders",
+                        "apiName": "SBQQ__CrossOrders__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Cross Products",
+                        "apiName": "SBQQ__CrossProducts__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "SBQQ__Description__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Discount Unit",
+                        "apiName": "SBQQ__DiscountUnit__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Excluded Pricebook IDs",
+                        "apiName": "SBQQ__ExcludedPricebookIds__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Include Bundled Quantities",
+                        "apiName": "SBQQ__IncludeBundledProducts__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Override Behavior",
+                        "apiName": "SBQQ__OverrideBehavior__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Price Scale",
+                        "apiName": "SBQQ__PriceScale__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__PriceType__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Quote Line Quantity Field",
+                        "apiName": "SBQQ__QuoteLineQuantityField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Term Discount",
+                        "apiName": "SBQQ__TermDiscount__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Use Price For Amount",
+                        "apiName": "SBQQ__UsePriceForAmount__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "User Defined",
+                        "apiName": "SBQQ__UserDefined__c",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "b810597d-29df-4500-bed5-433497277f8d",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Block Price Template",
+                "templateMainObject": "SBQQ__BlockPrice__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Price Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Effective Date",
+                        "apiName": "SBQQ__EffectiveDate__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Lower Bound",
+                        "apiName": "SBQQ__LowerBound__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Price",
+                        "apiName": "SBQQ__Price__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Upper Bound",
+                        "apiName": "SBQQ__UpperBound__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]

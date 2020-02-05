@@ -1,0 +1,370 @@
+[
+    {
+        "templateUUId": "a0dbdab0-6188-46c6-ae83-5f46793107d9",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Product Option Template",
+                "templateMainObject": "SBQQ__ProductOption__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Option Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Apply Immediately Context",
+                        "apiName": "SBQQ__AppliedImmediatelyContext__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Apply Immediately",
+                        "apiName": "SBQQ__AppliedImmediately__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Bundled",
+                        "apiName": "SBQQ__Bundled__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Component Code Position",
+                        "apiName": "SBQQ__ComponentCodePosition__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Component Code",
+                        "apiName": "SBQQ__ComponentCode__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Component Description Position",
+                        "apiName": "SBQQ__ComponentDescriptionPosition__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Component Description",
+                        "apiName": "SBQQ__ComponentDescription__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Default Pricing Table",
+                        "apiName": "SBQQ__DefaultPricingTable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Discount (Amt)",
+                        "apiName": "SBQQ__DiscountAmount__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Discount (%)",
+                        "apiName": "SBQQ__Discount__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Discounted By Package",
+                        "apiName": "SBQQ__DiscountedByPackage__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Existing Quantity",
+                        "apiName": "SBQQ__ExistingQuantity__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Max Quantity",
+                        "apiName": "SBQQ__MaxQuantity__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Min Quantity",
+                        "apiName": "SBQQ__MinQuantity__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Number",
+                        "apiName": "SBQQ__Number__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Price Editable",
+                        "apiName": "SBQQ__PriceEditable__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Product Code",
+                        "apiName": "SBQQ__ProductCode__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Product Configuration Type",
+                        "apiName": "SBQQ__ProductConfigurationType__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Product Description",
+                        "apiName": "SBQQ__ProductDescription__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Product Family",
+                        "apiName": "SBQQ__ProductFamily__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Product Name",
+                        "apiName": "SBQQ__ProductName__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Product Quantity Scale",
+                        "apiName": "SBQQ__ProductQuantityScale__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Product Subscription Pricing",
+                        "apiName": "SBQQ__ProductSubscriptionPricing__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Quantity Editable",
+                        "apiName": "SBQQ__QuantityEditable__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Quantity",
+                        "apiName": "SBQQ__Quantity__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Quote Line Visibility",
+                        "apiName": "SBQQ__QuoteLineVisibility__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Required",
+                        "apiName": "SBQQ__Required__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Selected",
+                        "apiName": "SBQQ__Selected__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Percent of Total Scope",
+                        "apiName": "SBQQ__SubscriptionScope__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "System",
+                        "apiName": "SBQQ__System__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Unit Price",
+                        "apiName": "SBQQ__UnitPrice__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Uplifted By Package",
+                        "apiName": "SBQQ__UpliftedByPackage__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": [
+                    {
+                        "field": "SBQQ__ConstrainedOption__c",
+                        "relationshipName": "SBQQ__Constraints__r",
+                        "childSObject": "SBQQ__OptionConstraint__c",
+                        "childSObjectLabel": "Option Constraint"
+                    }
+                ]
+            },
+            "relationList": [
+                {
+                    "templateUUId": "0899e5f3-28f9-4326-8090-cb4e90fdeb7f",
+                    "relationName": "SBQQ__Constraints__r",
+                    "childSObject": "SBQQ__OptionConstraint__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "0899e5f3-28f9-4326-8090-cb4e90fdeb7f",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Option Constraint Template 2",
+                "templateMainObject": "SBQQ__OptionConstraint__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Option Constraint Group",
+                        "apiName": "SBQQ__OptionConstraintGroup__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Check Prior Purchases",
+                        "apiName": "SBQQ__CheckPriorPurchases__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Active",
+                        "apiName": "SBQQ__Active__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Constraint Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]

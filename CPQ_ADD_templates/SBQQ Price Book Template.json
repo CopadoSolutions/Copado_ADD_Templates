@@ -1,0 +1,157 @@
+[
+    {
+        "templateUUId": "08d3f9d8-fd24-4ce5-9a28-5ff738ec3801",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Price Book Template",
+                "templateMainObject": "Pricebook2",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Price Book ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Price Book Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Active",
+                        "apiName": "IsActive",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Description",
+                        "apiName": "Description",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Is Standard Price Book",
+                        "apiName": "IsStandard",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": [
+                    {
+                        "field": "SBQQ__PriceBook2__c",
+                        "relationshipName": "SBQQ__BlockPrices__r",
+                        "childSObject": "SBQQ__BlockPrice__c",
+                        "childSObjectLabel": "Block Price"
+                    }
+                ]
+            },
+            "relationList": [
+                {
+                    "templateUUId": "fb2a52e6-5d97-4a3d-b1d0-952f2fd9cf40",
+                    "relationName": "SBQQ__BlockPrices__r",
+                    "childSObject": "SBQQ__BlockPrice__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "fb2a52e6-5d97-4a3d-b1d0-952f2fd9cf40",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Block Price Template",
+                "templateMainObject": "SBQQ__BlockPrice__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Price Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Effective Date",
+                        "apiName": "SBQQ__EffectiveDate__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Lower Bound",
+                        "apiName": "SBQQ__LowerBound__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Price",
+                        "apiName": "SBQQ__Price__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Upper Bound",
+                        "apiName": "SBQQ__UpperBound__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]

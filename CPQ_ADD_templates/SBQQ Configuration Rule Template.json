@@ -1,0 +1,383 @@
+[
+    {
+        "templateUUId": "768f6193-288c-4a94-8a5f-fd80cad8855e",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Configuration Rule Template",
+                "templateMainObject": "SBQQ__ConfigurationRule__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Rule Type",
+                        "apiName": "SBQQ__RuleType__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Rule Evaluation Event",
+                        "apiName": "SBQQ__RuleEvaluationEvent__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Child Bundle Condition Level",
+                        "apiName": "SBQQ__DescendingNestedLevel__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Child Bundle Action Level",
+                        "apiName": "SBQQ__DescendingActionNesting__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Parent Bundle Condition Level",
+                        "apiName": "SBQQ__AscendingNestedLevel__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Active",
+                        "apiName": "SBQQ__Active__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Rule #",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Product Feature",
+                        "apiName": "SBQQ__ProductFeature__c"
+                    },
+                    {
+                        "name": "Product Rule",
+                        "apiName": "SBQQ__ProductRule__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "3508fcae-1937-4d9e-a4f8-42e6f4591d1b",
+                    "relationName": "SBQQ__ProductRule__c"
+                },
+                {
+                    "templateUUId": "84bfc3d5-46c7-4238-b46e-b21e33fd87a2",
+                    "relationName": "SBQQ__ProductFeature__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "3508fcae-1937-4d9e-a4f8-42e6f4591d1b",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Product Rule (Product2 -> Product Action) Template 2",
+                "templateMainObject": "SBQQ__ProductRule__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": true,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Scope",
+                        "apiName": "SBQQ__Scope__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Lookup Type Field",
+                        "apiName": "SBQQ__LookupTypeField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Lookup Required Field",
+                        "apiName": "SBQQ__LookupRequiredField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Lookup Product Field",
+                        "apiName": "SBQQ__LookupProductField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Lookup Object",
+                        "apiName": "SBQQ__LookupObject__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Lookup Message Field",
+                        "apiName": "SBQQ__LookupMessageField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Evaluation Order",
+                        "apiName": "SBQQ__EvaluationOrder__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Evaluation Event",
+                        "apiName": "SBQQ__EvaluationEvent__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Message",
+                        "apiName": "SBQQ__ErrorMessage__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conditions Met",
+                        "apiName": "SBQQ__ConditionsMet__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Advanced Condition",
+                        "apiName": "SBQQ__AdvancedCondition__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Active",
+                        "apiName": "SBQQ__Active__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Product Rule Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "84bfc3d5-46c7-4238-b46e-b21e33fd87a2",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Product Feature Template",
+                "templateMainObject": "SBQQ__ProductFeature__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Feature Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Category",
+                        "apiName": "SBQQ__Category__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Configuration Field Set",
+                        "apiName": "SBQQ__ConfigurationFieldSet__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Dynamic Option Filter Field Set",
+                        "apiName": "SBQQ__DynamicProductFilterFieldSet__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Dynamic Option Lookup Field Set",
+                        "apiName": "SBQQ__DynamicProductLookupFieldSet__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Max Options",
+                        "apiName": "SBQQ__MaxOptionCount__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Min Options",
+                        "apiName": "SBQQ__MinOptionCount__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Number",
+                        "apiName": "SBQQ__Number__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Option Selection Method",
+                        "apiName": "SBQQ__OptionSelectionMethod__c",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]
