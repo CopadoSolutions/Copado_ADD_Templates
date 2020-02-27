@@ -1,0 +1,1421 @@
+[
+    {
+        "templateUUId": "a8d735cc-2a54-4e14-8fa0-624dd1a6119e",
+        "values": {
+            "dataTemplate": {
+                "templateName": "6-SBQQ Quote Term",
+                "templateMainObject": "SBQQ__QuoteTerm__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": true,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Status",
+                        "apiName": "SBQQ__Status__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Print Order",
+                        "apiName": "SBQQ__PrintOrder__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Locked",
+                        "apiName": "SBQQ__Locked__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Conditions Met",
+                        "apiName": "SBQQ__ConditionsMet__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Body",
+                        "apiName": "SBQQ__Body__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Advanced Condition",
+                        "apiName": "SBQQ__AdvancedCondition__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Active",
+                        "apiName": "SBQQ__Active__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Term #",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Standard Term",
+                        "apiName": "SBQQ__StandardTerm__c"
+                    },
+                    {
+                        "name": "Parent Term",
+                        "apiName": "SBQQ__ParentTerm__c"
+                    }
+                ],
+                "childObjects": [
+                    {
+                        "field": "SBQQ__QuoteTerm__c",
+                        "relationshipName": "SBQQ__UseConditions__r",
+                        "childSObject": "SBQQ__TermCondition__c",
+                        "childSObjectLabel": "Term Condition"
+                    }
+                ]
+            },
+            "relationList": [
+                {
+                    "templateUUId": "be8dbdf5-87fc-400e-9082-e12e3f104f25",
+                    "relationName": "SBQQ__ParentTerm__c"
+                },
+                {
+                    "templateUUId": "970fd964-0197-429a-b3a2-d0e5f2298264",
+                    "relationName": "SBQQ__StandardTerm__c"
+                },
+                {
+                    "templateUUId": "454b4b73-4d41-48ab-80f0-9444f636df58",
+                    "relationName": "SBQQ__UseConditions__r",
+                    "childSObject": "SBQQ__TermCondition__c"
+                }
+            ],
+            "filterList": [
+                {
+                    "order": 1,
+                    "operator": "e",
+                    "fieldName": "--None--",
+                    "fieldType": "STRING",
+                    "finalValue": ""
+                }
+            ]
+        }
+    },
+    {
+        "templateUUId": "be8dbdf5-87fc-400e-9082-e12e3f104f25",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Parent Term Template (Quote Term)",
+                "templateMainObject": "SBQQ__QuoteTerm__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Status",
+                        "apiName": "SBQQ__Status__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Print Order",
+                        "apiName": "SBQQ__PrintOrder__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Locked",
+                        "apiName": "SBQQ__Locked__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Conditions Met",
+                        "apiName": "SBQQ__ConditionsMet__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Body",
+                        "apiName": "SBQQ__Body__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Advanced Condition",
+                        "apiName": "SBQQ__AdvancedCondition__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Active",
+                        "apiName": "SBQQ__Active__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Term #",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": [
+                    {
+                        "field": "SBQQ__QuoteTerm__c",
+                        "relationshipName": "SBQQ__UseConditions__r",
+                        "childSObject": "SBQQ__TermCondition__c",
+                        "childSObjectLabel": "Term Condition"
+                    }
+                ]
+            },
+            "relationList": [
+                {
+                    "templateUUId": "6c310e34-477a-4df5-b725-6560256d432e",
+                    "relationName": "SBQQ__UseConditions__r",
+                    "childSObject": "SBQQ__TermCondition__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "970fd964-0197-429a-b3a2-d0e5f2298264",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Standard Term Template (Quote Term)",
+                "templateMainObject": "SBQQ__QuoteTerm__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Term #",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Active",
+                        "apiName": "SBQQ__Active__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Advanced Condition",
+                        "apiName": "SBQQ__AdvancedCondition__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Body",
+                        "apiName": "SBQQ__Body__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Conditions Met",
+                        "apiName": "SBQQ__ConditionsMet__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Locked",
+                        "apiName": "SBQQ__Locked__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Print Order",
+                        "apiName": "SBQQ__PrintOrder__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Status",
+                        "apiName": "SBQQ__Status__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Parent Term",
+                        "apiName": "SBQQ__ParentTerm__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "9c6383a1-1f36-41bc-9840-c39045886b63",
+                    "relationName": "SBQQ__ParentTerm__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "454b4b73-4d41-48ab-80f0-9444f636df58",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Term Condition (Quote Term) Template",
+                "templateMainObject": "SBQQ__TermCondition__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Value",
+                        "apiName": "SBQQ__Value__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Tested Field",
+                        "apiName": "SBQQ__TestedField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Operator",
+                        "apiName": "SBQQ__Operator__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Index",
+                        "apiName": "SBQQ__Index__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Condition #",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Tested Variable",
+                        "apiName": "SBQQ__TestedVariable__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "01d7363b-9b3d-48ad-a8ed-c481332676bc",
+                    "relationName": "SBQQ__TestedVariable__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "6c310e34-477a-4df5-b725-6560256d432e",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Term Condition (Parent Term) Template",
+                "templateMainObject": "SBQQ__TermCondition__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Value",
+                        "apiName": "SBQQ__Value__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Tested Field",
+                        "apiName": "SBQQ__TestedField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Operator",
+                        "apiName": "SBQQ__Operator__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Index",
+                        "apiName": "SBQQ__Index__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Condition #",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Tested Variable",
+                        "apiName": "SBQQ__TestedVariable__c"
+                    },
+                    {
+                        "name": "Quote Term",
+                        "apiName": "SBQQ__QuoteTerm__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "be1b95cb-9597-4e2e-96b1-a13671c060ae",
+                    "relationName": "SBQQ__QuoteTerm__c"
+                },
+                {
+                    "templateUUId": "4149b29c-b667-45f7-9e48-790efb545693",
+                    "relationName": "SBQQ__TestedVariable__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "01d7363b-9b3d-48ad-a8ed-c481332676bc",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Tested Variable Summary (Term Condition) Template",
+                "templateMainObject": "SBQQ__SummaryVariable__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": true,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Value Element",
+                        "apiName": "SBQQ__ValueElement__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Target Object",
+                        "apiName": "SBQQ__TargetObject__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Scope",
+                        "apiName": "SBQQ__Scope__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Operator",
+                        "apiName": "SBQQ__Operator__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Filter Value",
+                        "apiName": "SBQQ__FilterValue__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Filter Field",
+                        "apiName": "SBQQ__FilterField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Constraint Field",
+                        "apiName": "SBQQ__ConstraintField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Composite Operator",
+                        "apiName": "SBQQ__CompositeOperator__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Aggregate Function",
+                        "apiName": "SBQQ__AggregateFunction__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Aggregate Field",
+                        "apiName": "SBQQ__AggregateField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Variable Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Variable Element",
+                        "apiName": "SBQQ__CombineWith__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "0b335a84-9d65-44ab-b06d-5e043f70cd1a",
+                    "relationName": "SBQQ__CombineWith__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "9c6383a1-1f36-41bc-9840-c39045886b63",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Parent Term Template (Standard Term)",
+                "templateMainObject": "SBQQ__QuoteTerm__c",
+                "templateQueryLimit": null,
+                "templateDescription": "",
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Status",
+                        "apiName": "SBQQ__Status__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Print Order",
+                        "apiName": "SBQQ__PrintOrder__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Locked",
+                        "apiName": "SBQQ__Locked__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conditions Met",
+                        "apiName": "SBQQ__ConditionsMet__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Body",
+                        "apiName": "SBQQ__Body__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Advanced Condition",
+                        "apiName": "SBQQ__AdvancedCondition__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Active",
+                        "apiName": "SBQQ__Active__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Term #",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "be1b95cb-9597-4e2e-96b1-a13671c060ae",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Std Term (Term Cond) Template",
+                "templateMainObject": "SBQQ__QuoteTerm__c",
+                "templateQueryLimit": null,
+                "templateDescription": "",
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Status",
+                        "apiName": "SBQQ__Status__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Print Order",
+                        "apiName": "SBQQ__PrintOrder__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Locked",
+                        "apiName": "SBQQ__Locked__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conditions Met",
+                        "apiName": "SBQQ__ConditionsMet__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Body",
+                        "apiName": "SBQQ__Body__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Advanced Condition",
+                        "apiName": "SBQQ__AdvancedCondition__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Active",
+                        "apiName": "SBQQ__Active__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Term #",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "4149b29c-b667-45f7-9e48-790efb545693",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Tested Variable Summary (Term Condition 2) Template",
+                "templateMainObject": "SBQQ__SummaryVariable__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Value Element",
+                        "apiName": "SBQQ__ValueElement__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Target Object",
+                        "apiName": "SBQQ__TargetObject__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Scope",
+                        "apiName": "SBQQ__Scope__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Operator",
+                        "apiName": "SBQQ__Operator__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Filter Value",
+                        "apiName": "SBQQ__FilterValue__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Filter Field",
+                        "apiName": "SBQQ__FilterField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Constraint Field",
+                        "apiName": "SBQQ__ConstraintField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Composite Operator",
+                        "apiName": "SBQQ__CompositeOperator__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Aggregate Function",
+                        "apiName": "SBQQ__AggregateFunction__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Aggregate Field",
+                        "apiName": "SBQQ__AggregateField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Variable Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Variable Element",
+                        "apiName": "SBQQ__CombineWith__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "4ee1fa93-72d2-4177-995e-319e1e7d817e",
+                    "relationName": "SBQQ__CombineWith__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "0b335a84-9d65-44ab-b06d-5e043f70cd1a",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Variable Element (Tested Variable) Template",
+                "templateMainObject": "SBQQ__SummaryVariable__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Variable Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Aggregate Field",
+                        "apiName": "SBQQ__AggregateField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Aggregate Function",
+                        "apiName": "SBQQ__AggregateFunction__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Composite Operator",
+                        "apiName": "SBQQ__CompositeOperator__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Constraint Field",
+                        "apiName": "SBQQ__ConstraintField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Filter Field",
+                        "apiName": "SBQQ__FilterField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Filter Value",
+                        "apiName": "SBQQ__FilterValue__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Operator",
+                        "apiName": "SBQQ__Operator__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Scope",
+                        "apiName": "SBQQ__Scope__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Target Object",
+                        "apiName": "SBQQ__TargetObject__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Value Element",
+                        "apiName": "SBQQ__ValueElement__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "4ee1fa93-72d2-4177-995e-319e1e7d817e",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Variable Element Summary (Tested Variable Summ 2) Template",
+                "templateMainObject": "SBQQ__SummaryVariable__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": true,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Value Element",
+                        "apiName": "SBQQ__ValueElement__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Target Object",
+                        "apiName": "SBQQ__TargetObject__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Scope",
+                        "apiName": "SBQQ__Scope__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Operator",
+                        "apiName": "SBQQ__Operator__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Filter Value",
+                        "apiName": "SBQQ__FilterValue__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Filter Field",
+                        "apiName": "SBQQ__FilterField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Constraint Field",
+                        "apiName": "SBQQ__ConstraintField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Composite Operator",
+                        "apiName": "SBQQ__CompositeOperator__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Aggregate Function",
+                        "apiName": "SBQQ__AggregateFunction__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Aggregate Field",
+                        "apiName": "SBQQ__AggregateField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Variable Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Variable Element",
+                        "apiName": "SBQQ__CombineWith__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "7c564d9d-1930-494d-91cf-e06da9de5b0f",
+                    "relationName": "SBQQ__CombineWith__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "7c564d9d-1930-494d-91cf-e06da9de5b0f",
+        "values": {
+            "dataTemplate": {
+                "templateName": "SBQQ Variable Element Summary (Tested Variable Summ) Template",
+                "templateMainObject": "SBQQ__SummaryVariable__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": true,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Variable Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Aggregate Field",
+                        "apiName": "SBQQ__AggregateField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Aggregate Function",
+                        "apiName": "SBQQ__AggregateFunction__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Composite Operator",
+                        "apiName": "SBQQ__CompositeOperator__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Constraint Field",
+                        "apiName": "SBQQ__ConstraintField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Filter Field",
+                        "apiName": "SBQQ__FilterField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Filter Value",
+                        "apiName": "SBQQ__FilterValue__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Operator",
+                        "apiName": "SBQQ__Operator__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Scope",
+                        "apiName": "SBQQ__Scope__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Target Object",
+                        "apiName": "SBQQ__TargetObject__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Value Element",
+                        "apiName": "SBQQ__ValueElement__c",
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]

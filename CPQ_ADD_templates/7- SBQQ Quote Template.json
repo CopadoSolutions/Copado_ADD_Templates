@@ -1,0 +1,2079 @@
+[
+    {
+        "templateUUId": "bb69b9ad-e821-441c-8680-d9de93bb8312",
+        "values": {
+            "dataTemplate": {
+                "templateName": "7- SBQQ Quote Template",
+                "templateMainObject": "SBQQ__QuoteTemplate__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Watermark ID",
+                        "apiName": "SBQQ__WatermarkId__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Hide Totals",
+                        "apiName": "SBQQ__TotalsHidden__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Total Label",
+                        "apiName": "SBQQ__TotalLabel__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Total Field",
+                        "apiName": "SBQQ__TotalField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Top Margin",
+                        "apiName": "SBQQ__TopMargin__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Text Color",
+                        "apiName": "SBQQ__TextColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Number Terms",
+                        "apiName": "SBQQ__TermsNumbered__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Terms & Conditions",
+                        "apiName": "SBQQ__TermsConditions__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Terms & Conditions Title",
+                        "apiName": "SBQQ__TermsConditionsTitle__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Term Body Indent (px)",
+                        "apiName": "SBQQ__TermBodyIndent__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Subtotal Label",
+                        "apiName": "SBQQ__SubtotalLabel__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Subtotal Field",
+                        "apiName": "SBQQ__SubtotalField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Sub Group Field",
+                        "apiName": "SBQQ__SubGroupField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Ship To Title",
+                        "apiName": "SBQQ__ShipToTitle__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Shading Color",
+                        "apiName": "SBQQ__ShadingColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Roll-Up Field",
+                        "apiName": "SBQQ__RollUpField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Right Margin",
+                        "apiName": "SBQQ__RightMargin__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Show Renewed Products",
+                        "apiName": "SBQQ__RenewedProductsShown__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Show Partner Discount",
+                        "apiName": "SBQQ__PartnerDiscountShown__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Partner Discount Label",
+                        "apiName": "SBQQ__PartnerDiscountLabel__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Page Width",
+                        "apiName": "SBQQ__PageWidth__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Page Orientation",
+                        "apiName": "SBQQ__PageOrientation__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Page Number Text",
+                        "apiName": "SBQQ__PageNumberText__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Page Number Position",
+                        "apiName": "SBQQ__PageNumberPosition__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Page Number Alignment",
+                        "apiName": "SBQQ__PageNumberAlignment__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Page Height",
+                        "apiName": "SBQQ__PageHeight__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Notes Title",
+                        "apiName": "SBQQ__NotesTitle__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Logo Document Id",
+                        "apiName": "SBQQ__LogoDocumentId__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Line Sort Field",
+                        "apiName": "SBQQ__LineSortField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Line Numbering",
+                        "apiName": "SBQQ__LineNumbering__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Left Margin",
+                        "apiName": "SBQQ__LeftMargin__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Introduction Title",
+                        "apiName": "SBQQ__IntroductionTitle__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Hide Group Subtotals",
+                        "apiName": "SBQQ__HideGroupSubtotals__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Header Height",
+                        "apiName": "SBQQ__HeaderHeight__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Group Text Color",
+                        "apiName": "SBQQ__GroupTextColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Group Text Alignment",
+                        "apiName": "SBQQ__GroupTextAlignment__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Group Shading Color",
+                        "apiName": "SBQQ__GroupShadingColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Group Gap (px)",
+                        "apiName": "SBQQ__GroupGap__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Group Font Style",
+                        "apiName": "SBQQ__GroupFontStyle__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Group Font Size",
+                        "apiName": "SBQQ__GroupFontSize__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Group Font Family",
+                        "apiName": "SBQQ__GroupFontFamily__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Group Field",
+                        "apiName": "SBQQ__GroupField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Grand Total Prefix",
+                        "apiName": "SBQQ__GrandTotalPrefix__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Generator Name",
+                        "apiName": "SBQQ__GeneratorName__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Footer Height",
+                        "apiName": "SBQQ__FooterHeight__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Font Size",
+                        "apiName": "SBQQ__FontSize__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Font Family",
+                        "apiName": "SBQQ__FontFamily__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Exclude Page Numbers",
+                        "apiName": "SBQQ__ExcludedPages__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Exclude Header & Footer",
+                        "apiName": "SBQQ__ExcludeHeaderFooter__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Show Discount Schedule",
+                        "apiName": "SBQQ__DiscountScheduleShown__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Deployment Status",
+                        "apiName": "SBQQ__DeploymentStatus__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Default",
+                        "apiName": "SBQQ__Default__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Show Customer Discount",
+                        "apiName": "SBQQ__CustomerDiscountShown__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Customer Discount Label",
+                        "apiName": "SBQQ__CustomerDiscountLabel__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Customer Discount Field",
+                        "apiName": "SBQQ__CustomerDiscountField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Hide Component Products",
+                        "apiName": "SBQQ__ComponentProductsHidden__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Company Street",
+                        "apiName": "SBQQ__CompanyStreet__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Company State",
+                        "apiName": "SBQQ__CompanyState__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Company Slogan",
+                        "apiName": "SBQQ__CompanySlogan__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Company Postal Code",
+                        "apiName": "SBQQ__CompanyPostalCode__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Company Phone",
+                        "apiName": "SBQQ__CompanyPhone__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Company Name",
+                        "apiName": "SBQQ__CompanyName__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Company Fax",
+                        "apiName": "SBQQ__CompanyFax__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Company Email",
+                        "apiName": "SBQQ__CompanyEmail__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Company Country",
+                        "apiName": "SBQQ__CompanyCountry__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Company City",
+                        "apiName": "SBQQ__CompanyCity__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Show Bundled Products",
+                        "apiName": "SBQQ__BundledProductsShown__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Bottom Margin",
+                        "apiName": "SBQQ__BottomMargin__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Border Color",
+                        "apiName": "SBQQ__BorderColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Bill To Title",
+                        "apiName": "SBQQ__BillToTitle__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Show All Package Product",
+                        "apiName": "SBQQ__AllPackageProductsShown__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Template Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Header Content",
+                        "apiName": "SBQQ__HeaderContent__c"
+                    },
+                    {
+                        "name": "Footer Content",
+                        "apiName": "SBQQ__FooterContent__c"
+                    }
+                ],
+                "childObjects": [
+                    {
+                        "field": "SBQQ__Template__c",
+                        "relationshipName": "SBQQ__Sections__r",
+                        "childSObject": "SBQQ__TemplateSection__c",
+                        "childSObjectLabel": "Template Section"
+                    },
+                    {
+                        "field": "SBQQ__QuoteTemplate__c",
+                        "relationshipName": "SBQQ__ProductContent__r",
+                        "childSObject": "SBQQ__RelatedContent__c",
+                        "childSObjectLabel": "Additional Document"
+                    },
+                    {
+                        "field": "SBQQ__Template__c",
+                        "relationshipName": "SBQQ__LineColumns__r",
+                        "childSObject": "SBQQ__LineColumn__c",
+                        "childSObjectLabel": "Line Column"
+                    }
+                ]
+            },
+            "relationList": [
+                {
+                    "templateUUId": "bc7f2406-6abe-47dd-ada4-aa809c9bd440",
+                    "relationName": "SBQQ__FooterContent__c"
+                },
+                {
+                    "templateUUId": "65a04d0e-6a7a-4745-937a-bb073e9741b3",
+                    "relationName": "SBQQ__HeaderContent__c"
+                },
+                {
+                    "templateUUId": "599d5d1d-37a8-44b4-a775-63320a06c666",
+                    "relationName": "SBQQ__LineColumns__r",
+                    "childSObject": "SBQQ__LineColumn__c"
+                },
+                {
+                    "templateUUId": "aa434b74-bd89-4c67-aef3-eb334ccfeefb",
+                    "relationName": "SBQQ__ProductContent__r",
+                    "childSObject": "SBQQ__RelatedContent__c"
+                },
+                {
+                    "templateUUId": "38632a42-4f08-48cc-9c51-88c9a944be7a",
+                    "relationName": "SBQQ__Sections__r",
+                    "childSObject": "SBQQ__TemplateSection__c"
+                }
+            ],
+            "filterList": [
+                {
+                    "order": 1,
+                    "operator": "e",
+                    "fieldName": "--None--",
+                    "fieldType": "STRING",
+                    "finalValue": ""
+                }
+            ]
+        }
+    },
+    {
+        "templateUUId": "65a04d0e-6a7a-4745-937a-bb073e9741b3",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Header Content (Quote Template -> Template Content) Template",
+                "templateMainObject": "SBQQ__TemplateContent__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Content Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Custom Source",
+                        "apiName": "SBQQ__CustomSource__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Font Family",
+                        "apiName": "SBQQ__FontFamily__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Font Size",
+                        "apiName": "SBQQ__FontSize__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Markup",
+                        "apiName": "SBQQ__Markup__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Raw Markup",
+                        "apiName": "SBQQ__RawMarkup__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Table Style",
+                        "apiName": "SBQQ__TableStyle__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Text Color",
+                        "apiName": "SBQQ__TextColor__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "bc7f2406-6abe-47dd-ada4-aa809c9bd440",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Footer Content (Quote Template -> Template Content) Template",
+                "templateMainObject": "SBQQ__TemplateContent__c",
+                "templateQueryLimit": null,
+                "templateDescription": "",
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Text Color",
+                        "apiName": "SBQQ__TextColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Table Style",
+                        "apiName": "SBQQ__TableStyle__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Raw Markup",
+                        "apiName": "SBQQ__RawMarkup__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Markup",
+                        "apiName": "SBQQ__Markup__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Font Size",
+                        "apiName": "SBQQ__FontSize__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Font Family",
+                        "apiName": "SBQQ__FontFamily__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Custom Source",
+                        "apiName": "SBQQ__CustomSource__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Content Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "38632a42-4f08-48cc-9c51-88c9a944be7a",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Template Section (Quote Template) Template",
+                "templateMainObject": "SBQQ__TemplateSection__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Top Margin",
+                        "apiName": "SBQQ__TopMargin__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Summary Display",
+                        "apiName": "SBQQ__SummaryDisplay__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Roll-Up Field",
+                        "apiName": "SBQQ__RollUpField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Print Quote Totals",
+                        "apiName": "SBQQ__QuoteTotalsPrinted__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Page Break",
+                        "apiName": "SBQQ__PageBreak__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Keep With Previous",
+                        "apiName": "SBQQ__KeepWithPrevious__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Keep With Next",
+                        "apiName": "SBQQ__KeepWithNext__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Keep Together",
+                        "apiName": "SBQQ__KeepTogether__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Group Field",
+                        "apiName": "SBQQ__GroupField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Filter Value",
+                        "apiName": "SBQQ__FilterValue__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Filter Operator",
+                        "apiName": "SBQQ__FilterOperator__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Filter Field",
+                        "apiName": "SBQQ__FilterField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Display Order",
+                        "apiName": "SBQQ__DisplayOrder__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Conditional Print Field",
+                        "apiName": "SBQQ__ConditionalPrintField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Hide Column Header",
+                        "apiName": "SBQQ__ColumnHeaderHidden__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Bottom Margin",
+                        "apiName": "SBQQ__BottomMargin__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Border Color",
+                        "apiName": "SBQQ__BorderColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Section Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Content",
+                        "apiName": "SBQQ__Content__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "8639171e-c8c4-4a2c-bacb-f4352a8476fb",
+                    "relationName": "SBQQ__Content__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "aa434b74-bd89-4c67-aef3-eb334ccfeefb",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Additional Document (Quote Template) Template",
+                "templateMainObject": "SBQQ__RelatedContent__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": true,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Required",
+                        "apiName": "SBQQ__Required__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "SBQQ__ExternalId__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Document Name",
+                        "apiName": "SBQQ__DocumentName__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Display Order",
+                        "apiName": "SBQQ__DisplayOrder__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Additional Document",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Template Section",
+                        "apiName": "SBQQ__TemplateSection__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "0a1766d3-519d-448c-9be4-ddf5d704cfe7",
+                    "relationName": "SBQQ__TemplateSection__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "599d5d1d-37a8-44b4-a775-63320a06c666",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Line Column (Quote Template) Template",
+                "templateMainObject": "SBQQ__LineColumn__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Width",
+                        "apiName": "SBQQ__Width__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Discard Width When Hidden",
+                        "apiName": "SBQQ__WidthDiscardedWhenHidden__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Top Margin (px)",
+                        "apiName": "SBQQ__TopMargin__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Text Color",
+                        "apiName": "SBQQ__TextColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Summary Text Color",
+                        "apiName": "SBQQ__SummaryTextColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Summary Shading Color",
+                        "apiName": "SBQQ__SummaryShadingColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Summary Level",
+                        "apiName": "SBQQ__SummaryLevel__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Summary Label",
+                        "apiName": "SBQQ__SummaryLabel__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Summary Function",
+                        "apiName": "SBQQ__SummaryFunction__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Summary Font Weight",
+                        "apiName": "SBQQ__SummaryFontWeight__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Sub Group Summary Label",
+                        "apiName": "SBQQ__SubGroupSummaryLabel__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Separate Line",
+                        "apiName": "SBQQ__SeparateLine__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Roll Up",
+                        "apiName": "SBQQ__RollUp__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Right Margin (px)",
+                        "apiName": "SBQQ__RightMargin__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Left Margin (px)",
+                        "apiName": "SBQQ__LeftMargin__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Hide On Product Options",
+                        "apiName": "SBQQ__HideOnComponents__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Heading Text Color",
+                        "apiName": "SBQQ__HeadingTextColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Font Weight",
+                        "apiName": "SBQQ__FontWeight__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Font Size (pt)",
+                        "apiName": "SBQQ__FontSize__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Font Family",
+                        "apiName": "SBQQ__FontFamily__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Field Name",
+                        "apiName": "SBQQ__FieldName__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Dynamic Number Scale",
+                        "apiName": "SBQQ__DynamicNumberScale__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Display Order",
+                        "apiName": "SBQQ__DisplayOrder__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Conditional Print Field",
+                        "apiName": "SBQQ__ConditionalPrintField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Column Heading Field",
+                        "apiName": "SBQQ__ColumnHeadingField__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Bottom Margin (px)",
+                        "apiName": "SBQQ__BottomMargin__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Alignment",
+                        "apiName": "SBQQ__Alignment__c",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {}
+                    },
+                    {
+                        "name": "Column Heading",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {}
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Section",
+                        "apiName": "SBQQ__Section__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "cace6f46-a11e-4635-bcbb-71691e95a8ff",
+                    "relationName": "SBQQ__Section__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "8639171e-c8c4-4a2c-bacb-f4352a8476fb",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Template Content (Content) Tested",
+                "templateMainObject": "SBQQ__TemplateContent__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Text Color",
+                        "apiName": "SBQQ__TextColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Table Style",
+                        "apiName": "SBQQ__TableStyle__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Raw Markup",
+                        "apiName": "SBQQ__RawMarkup__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Markup",
+                        "apiName": "SBQQ__Markup__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Font Size",
+                        "apiName": "SBQQ__FontSize__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Font Family",
+                        "apiName": "SBQQ__FontFamily__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Custom Source",
+                        "apiName": "SBQQ__CustomSource__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Content Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "cace6f46-a11e-4635-bcbb-71691e95a8ff",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Template Section (Quote Template)",
+                "templateMainObject": "SBQQ__TemplateSection__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Section Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Border Color",
+                        "apiName": "SBQQ__BorderColor__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Bottom Margin",
+                        "apiName": "SBQQ__BottomMargin__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Hide Column Header",
+                        "apiName": "SBQQ__ColumnHeaderHidden__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conditional Print Field",
+                        "apiName": "SBQQ__ConditionalPrintField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Display Order",
+                        "apiName": "SBQQ__DisplayOrder__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Filter Field",
+                        "apiName": "SBQQ__FilterField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Filter Operator",
+                        "apiName": "SBQQ__FilterOperator__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Filter Value",
+                        "apiName": "SBQQ__FilterValue__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "Group Field",
+                        "apiName": "SBQQ__GroupField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Keep Together",
+                        "apiName": "SBQQ__KeepTogether__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Keep With Next",
+                        "apiName": "SBQQ__KeepWithNext__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Keep With Previous",
+                        "apiName": "SBQQ__KeepWithPrevious__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Page Break",
+                        "apiName": "SBQQ__PageBreak__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Print Quote Totals",
+                        "apiName": "SBQQ__QuoteTotalsPrinted__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Roll-Up Field",
+                        "apiName": "SBQQ__RollUpField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Summary Display",
+                        "apiName": "SBQQ__SummaryDisplay__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Top Margin",
+                        "apiName": "SBQQ__TopMargin__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    },
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace",
+                            "Scramble Value": "scramble",
+                            "Scramble With Format": "scrambleWithFormat"
+                        }
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Content",
+                        "apiName": "SBQQ__Content__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "8639171e-c8c4-4a2c-bacb-f4352a8476fb",
+                    "relationName": "SBQQ__Content__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "0a1766d3-519d-448c-9be4-ddf5d704cfe7",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Template Section (Quote Template 2)",
+                "templateMainObject": "SBQQ__TemplateSection__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Top Margin",
+                        "apiName": "SBQQ__TopMargin__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Summary Display",
+                        "apiName": "SBQQ__SummaryDisplay__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Roll-Up Field",
+                        "apiName": "SBQQ__RollUpField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Print Quote Totals",
+                        "apiName": "SBQQ__QuoteTotalsPrinted__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Page Break",
+                        "apiName": "SBQQ__PageBreak__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Keep With Previous",
+                        "apiName": "SBQQ__KeepWithPrevious__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Keep With Next",
+                        "apiName": "SBQQ__KeepWithNext__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Keep Together",
+                        "apiName": "SBQQ__KeepTogether__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Group Field",
+                        "apiName": "SBQQ__GroupField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Filter Value",
+                        "apiName": "SBQQ__FilterValue__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Filter Operator",
+                        "apiName": "SBQQ__FilterOperator__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Filter Field",
+                        "apiName": "SBQQ__FilterField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Display Order",
+                        "apiName": "SBQQ__DisplayOrder__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Conditional Print Field",
+                        "apiName": "SBQQ__ConditionalPrintField__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Hide Column Header",
+                        "apiName": "SBQQ__ColumnHeaderHidden__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Bottom Margin",
+                        "apiName": "SBQQ__BottomMargin__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Border Color",
+                        "apiName": "SBQQ__BorderColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Section Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [
+                    {
+                        "name": "Content",
+                        "apiName": "SBQQ__Content__c"
+                    }
+                ],
+                "childObjects": []
+            },
+            "relationList": [
+                {
+                    "templateUUId": "b7fe5370-ed59-47fe-995b-502d219ee62e",
+                    "relationName": "SBQQ__Content__c"
+                }
+            ],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "8639171e-c8c4-4a2c-bacb-f4352a8476fb",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Template Content (Content) Tested",
+                "templateMainObject": "SBQQ__TemplateContent__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Text Color",
+                        "apiName": "SBQQ__TextColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Table Style",
+                        "apiName": "SBQQ__TableStyle__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Raw Markup",
+                        "apiName": "SBQQ__RawMarkup__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Markup",
+                        "apiName": "SBQQ__Markup__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Font Size",
+                        "apiName": "SBQQ__FontSize__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Font Family",
+                        "apiName": "SBQQ__FontFamily__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Custom Source",
+                        "apiName": "SBQQ__CustomSource__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Content Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    },
+    {
+        "templateUUId": "b7fe5370-ed59-47fe-995b-502d219ee62e",
+        "values": {
+            "dataTemplate": {
+                "templateName": "Template Content (Content 2) Tested",
+                "templateMainObject": "SBQQ__TemplateContent__c",
+                "templateQueryLimit": null,
+                "templateDescription": null,
+                "templateFilterLogic": "1",
+                "templateBatchSize": 200,
+                "templateMatchOwners": false,
+                "templateMatchRecordTypes": false,
+                "templateContinueOnError": "Continue deployment until blocker issue",
+                "templateActive": true
+            },
+            "content": {
+                "objectFields": [
+                    {
+                        "name": "External Id",
+                        "apiName": "External_Id__c",
+                        "useAsExternalId": true,
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Type",
+                        "apiName": "SBQQ__Type__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Text Color",
+                        "apiName": "SBQQ__TextColor__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Table Style",
+                        "apiName": "SBQQ__TableStyle__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Raw Markup",
+                        "apiName": "SBQQ__RawMarkup__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Markup",
+                        "apiName": "SBQQ__Markup__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Font Size",
+                        "apiName": "SBQQ__FontSize__c",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Font Family",
+                        "apiName": "SBQQ__FontFamily__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Custom Source",
+                        "apiName": "SBQQ__CustomSource__c",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Currency ISO Code",
+                        "apiName": "CurrencyIsoCode",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Content Name",
+                        "apiName": "Name",
+                        "contentValueUpdateValues": {
+                            "Scramble With Format": "scrambleWithFormat",
+                            "Scramble Value": "scramble",
+                            "Replace Value": "replace"
+                        }
+                    },
+                    {
+                        "name": "Record ID",
+                        "apiName": "Id",
+                        "contentValueUpdateValues": {
+                            "Replace Value": "replace"
+                        }
+                    }
+                ],
+                "parentObjects": [],
+                "childObjects": []
+            },
+            "relationList": [],
+            "filterList": []
+        }
+    }
+]
