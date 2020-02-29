@@ -25,7 +25,7 @@ All these templates are included in 1-Conga_Solution template. Please, import th
 The Conga Composer data deployment requires one data deployment step. Select the 1-Conga_Solution template.
 
 # CPQ templates #
-
+Templates created from CPQ version 	224.7
 There are 7 different main templates which includes all their related object templates.
 
 1- Import the 1- SBQQ Pricebook template<br/>
